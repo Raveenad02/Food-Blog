@@ -4,9 +4,9 @@
     font-family: 'Poppins', sans-serif;
 }
 .header{
-    min-height: 100vh;
-    width: 70%;
-    background-image: linear-gradient(rgba(220, 201, 155, 0.7),rgba(220, 201, 155, 0.7)),url(images/Home.png);
+    min-height: auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(233, 210, 240, 0.7),rgba(233, 210, 240, 0.7)),url(images/Home.png);
     background-position: center;
     background-size: cover;
     position: relative;
