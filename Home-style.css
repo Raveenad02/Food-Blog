@@ -7,6 +7,7 @@
     min-height: auto;
     width: 100%;
     background-image: linear-gradient(rgba(233, 210, 240, 0.7),rgba(233, 210, 240, 0.7)),url(images/Home.png);
+    background-color: aliceblue;
     background-position: center;
     background-size: cover;
     position: relative;
