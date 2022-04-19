@@ -47,7 +47,6 @@ width: 200px;
 .nav-links ul li:hover::after{
     width: 100%;
 }
-
 .text-box{
     width: 90%;
     color:rgb(7, 7, 7);
@@ -107,72 +106,9 @@ nav .fa{
         font-size: 7px;
     }
 
-    .images{
-        width:100%;
-        height:auto
-    }
-    .navLinks{
-        font-size: 0.5px;
-        text-align: right;
-            }
-       
-    }
-
-    .Ingredients{
-        margin: 3px 50px;
-    }
-.Recipe1{
-    margin: 20px 70px;
-    text-align: left;
-    }
-    .Recipe1 h3{
-        font-size: 20px;
-    }
-.Recipe2{
-    margin: 20px 70px;
-    text-align: left;
-    }
-/*--------Contact---------*/
-
-#contact{
-    padding-top: 40px;
-    padding: bottom 30px;
-    color:#777;
-    font-size: x-small;
-    margin: 20px 70px;
-    text-align:left
 }
 
-.heading{
-    font-size: 20px;
-    color: crimson;
-    text-align: justify;
-    padding: 15px;
-}
-
-.contact-form{
-    background-color: rgb(240, 98, 9);
-    padding: 5px;
-    align-items: center;
-}
-
-.form-control{
-    border-radius: 10 !important;
-    }
-
-::placeholder{
-    color:#999;
-}
-
-.textarea{
-    width: 400px;
-    max-width: 400px;
-}
-
-.follow{
-    background:#fff;
-    padding: 5px;
-    margin: 15px;
-}
-
-
+.navLinks{
+    font-size: 0.5px;
+    text-align: right;
+        }
