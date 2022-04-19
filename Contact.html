@@ -35,27 +35,32 @@
         <div class="container">
           <div class="row">
           <div class="col-md-6">
-          <form class="contact-form">
-          <div class="form-group">
-          <input type="text" class="form-control" placeholder="Your Name">
-          </div>
-          <br>
-          <div class="form-group">
-          <input type="number" class="form-control" placeholder="Phone Number">
-          </div>
-          <br>
-          <div class="form-group">
-          <input type="email" class="form-control" placeholder="Email Id">
-          </div>
-          <br>
-          <div class="form-group">
-          <textarea class="form-control" rows="4" placeholder="Message"></textarea>
-          </div>
-          <br>
-          <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+          <form 
+            action="https://formspree.io/f/xqknyoaa"
+            method="POST"
+          
+            class="contact-form">
+           <div class="form-group">
+            <div class="mb-3">
+                <label for="fname">First name:</label><br>
+                <input type="text" class="form-control" id="First Name" name="First Name">
+            </div>
+            
+            <div class="mb-3">
+                <label for="lname">Last name:</label><br>
+                <input type="text" class="form-control" id="Last Name" name="Last Name">
+            </div>
+            
+            <div class="mb-3">
+                <label for="email">Email:</label><br>
+                <input type="text" class="form-control" id="Email" name="Email">
+                <div id="emailHelp" class="form-text"></div>                    <br>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
           </form>
-          </div>
-        <div class="col-md-6 contact-info">
+
+
                      
         </div>
         </div>
