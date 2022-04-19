@@ -132,11 +132,47 @@ nav .fa{
     margin: 20px 70px;
     text-align: left;
     }
+/*--------Contact---------*/
 
+#contact{
+    background: #f3bdbd;
+    padding-top: 40px;
+    padding: bottom 30px;
+    color:#777;
+    font-size: x-small;
+    margin: 20px 70px;
+    text-align:left
+}
 
+.heading{
+    font-size: 20px;
+    color: crimson;
+    text-align: justify;
+    padding: 15px;
+}
 
+.contact-form{
+    padding: 15px;
+    align-items: center;
+}
 
+.form-control{
+    border-radius: 10 !important;
+    }
 
+::placeholder{
+    color:#999;
+}
 
+.textarea{
+    width: 400px;
+    max-width: 400px;
+}
+
+.follow{
+    background:#fff;
+    padding: 5px;
+    margin: 15px;
+}
 
 
